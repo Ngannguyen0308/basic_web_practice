@@ -1,0 +1,168 @@
+body{
+    background-color: forestgreen;
+    margin: 0;
+    font-family: "Sofia", sans-serif;
+}
+
+@font-face {
+    src: url('D:\web design\Hurricane\Hurricane-Regular.ttf');
+    font-family: Hurricane-Regular;
+}
+
+h1{
+    color: brown;
+    text-align: center;
+    font-family: Hurricane-Regular;
+}
+
+p1 {
+    font-style: italic;
+    background-color: chocolate;
+}
+
+td{
+    padding: 10px;
+    min-width: 10px;
+}
+
+th{
+    background-color: blueviolet; 
+    color: chocolate;
+
+}
+
+.yellow-text {
+    color: #ffff00;
+}
+
+#span_h {
+    color: brown;
+}
+
+
+#my-header {
+    background-image: url('anh.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    color: gold;
+    min-height: 400px;
+    padding-top: 100px;
+    font-size: 60px;
+        
+}
+
+#my_tagline {
+    text-align: center;
+    color: blueviolet;
+    font-size: large;
+}
+
+
+#big-red-text {
+    font-size: 40px;
+    color: coral;
+}
+
+.text-container {
+    display: inline-block;
+    margin: 50px 0 25px 25px;
+    padding: 10px 0 20px 20px;
+    display: inline-block;
+    border: 1px solid yellow;
+
+
+}
+
+.text-container p {
+    color: crimson;
+}
+
+#myNav {
+    position: fixed;
+    background-color: aliceblue;
+    width: 100%;
+    top: 0;
+}
+
+#myNav ul li{
+    display: inline-block;
+}
+
+#myFooter {
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+
+a :visited {
+    color: rgb(238, 11, 60);
+}
+
+a :hover {
+    color: rgb(104, 14, 207);
+    text-decoration: line-through;
+
+}
+
+
+td:nth-child(even) {
+    color: #da9091;
+}
+
+p::first-line {
+    color: coral;
+    font-variant: small-caps;
+}
+
+p::selection {
+    color: blue;
+    background-color: white;
+}
+
+p::first-letter {
+    color: rgb(36, 18, 201);
+    font-size: x-large; /* chinh sua chu cai dau tien*/
+
+}
+
+h2::before {
+    content: "stuff before";
+    color: blue;
+}
+
+h2::after {
+    content: "stuff after! :):):)";
+    color: red;
+}
+
+li, .yellow-text {
+    text-decoration: line-through;
+}
+
+article p {
+    border: solid 1pm burlywood;
+}
+
+section .text-container p {
+    background-color: blue;
+}
+
+/* mobile responsive */
+@media  screen and (max-width: 600px) {
+    table{
+        width: 100%;
+    }
+
+    h { /*h1 */
+        font-size: xx-large;
+        color: red;
+        background-color: #ffff00;
+    }
+    img {
+        width: 100%;
+    }
+
+    
+}
